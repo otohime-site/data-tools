@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2015",
+      "module": "NodeNext",
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true
+    },
+    "include": ["*"],
+    "ts-node": {
+        "experimentalResolver": true,
+        "esm": true
+    }    
+  }
+  
