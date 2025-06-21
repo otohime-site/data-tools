@@ -23,6 +23,10 @@ const go = async () => {
   // @ts-expect-error The DOMParser did not match the TypeScript definition
   globalThis.DOMParser = DOMParser
 
+  const manualInternalLvs: Record<string, number> = JSON.parse(
+    await fsPromises.readFile("../assets/internal_lvs/manual.json", "utf8"),
+  )
+
   const newSongTitles = new Set(
     parseScores(
       await fsPromises.readFile("../assets/dxnet/prism_plus.htm", "utf8"),
@@ -95,9 +99,7 @@ const go = async () => {
       // Try to ignore songs out of international version
       if (
         newSongTitles.has(score.title) ||
-        oldSongs.has(
-          `${category}_${score.title}_${score.deluxe ? "t" : "f"}`,
-        )
+        oldSongs.has(`${category}_${score.title}_${score.deluxe ? "t" : "f"}`)
       ) {
         result[
           `${category}_${score.title}_${score.deluxe ? "t" : "f"}_${
@@ -115,7 +117,7 @@ const go = async () => {
   }
   await fsPromises.writeFile(
     "../assets/internal_lvs/24_prism_plus.json",
-    JSON.stringify(result, undefined, 2),
+    JSON.stringify({ ...result, ...manualInternalLvs }, undefined, 2),
   )
 }
 
