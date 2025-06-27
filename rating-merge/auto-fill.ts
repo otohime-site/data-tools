@@ -62,9 +62,23 @@ const go = async () => {
     categoryMap.set(score.title, score.category)
   }
 
-  const files = ["12", "12_plus", "13", "13_plus", "14", "14_plus", "15"]
+  const files = [
+    "10",
+    "10_plus",
+    "11",
+    "11_plus",
+    "12",
+    "12_plus",
+    "13",
+    "13_plus",
+    "14",
+    "14_plus",
+    "15",
+  ]
   // Avoid floating point accuracy issue by multiple with 10
-  const baseInternalLvs = [120, 126, 130, 136, 140, 146, 150]
+  const baseInternalLvs = [
+    100, 106, 110, 116, 120, 126, 130, 136, 140, 146, 150,
+  ]
   const result: Record<string, number> = {}
 
   for (const [index, fileName] of files.entries()) {
