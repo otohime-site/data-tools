@@ -1,12 +1,14 @@
 use std::collections::{HashMap, HashSet};
+use std::io::Cursor;
 use std::path::PathBuf;
 
 use anyhow::ensure;
 use clap::Parser;
 use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256};
 use tokio::fs::{File, read_to_string};
-//use tokio::io::copy;
-//use tokio::time::{Duration, sleep};
+use tokio::io::copy;
+use tokio::time::{Duration, sleep};
 
 #[derive(Deserialize, Debug)]
 struct SongEntry {
@@ -155,20 +157,38 @@ async fn main() -> anyhow::Result<()> {
                 },
             );
         }
-        let hash = format!("{category}_{title}");
-        //     let filename = &song.image_url;
-        //     let image_path = cli.path.join(filename);
-        //     if image_path.exists() {
-        //         println!("{title} ({filename}) file exists, skipped");
-        //         continue;
-        //     }
-        //     println!("Downloading {title} ({filename})...");
-        //     let url = format!("https://maimaidx.jp/maimai-mobile/img/Music/{filename}");
-        //     let resp = client.get(url).send().await?.error_for_status()?;
-        //     let mut file = File::create(image_path).await?;
-        //     let mut content = Cursor::new(resp.bytes().await?);
-        //     copy(&mut content, &mut file).await?;
-        //     sleep(Duration::from_secs(1)).await;
+        let to_be_hash = format!("{category}_{title}");
+        let hash = Sha256::digest(to_be_hash.as_bytes());
+        let hash_hex = base16ct::lower::encode_string(&hash);
+        let target_filename = format!("{}.jpg", &hash_hex[..8]);
+        let target_path = cli.cover_path.join(target_filename);
+        if !target_path.exists() {
+            let source_filename = &song.image_url;
+            match cli.cover_archive {
+                Some(ref cover_archive) => {
+                    // Use the cover archive
+                    let source_path = cover_archive.join(source_filename);
+                    if !source_path.exists() {
+                        println!("Source file {source_path:?} does not exist, skipping {title}");
+                        continue;
+                    }
+                    println!("Copying {title} from {source_path:?} to {target_path:?}");
+                    tokio::fs::copy(source_path, &target_path).await?;
+                }
+                None => {
+                    println!("Downloading {title} ({source_filename})...");
+                    let url =
+                        format!("https://maimaidx.jp/maimai-mobile/img/Music/{source_filename}");
+                    let resp = client.get(url).send().await?.error_for_status()?;
+                    let mut file = File::create(target_path).await?;
+                    let mut content = Cursor::new(resp.bytes().await?);
+                    copy(&mut content, &mut file).await?;
+                    sleep(Duration::from_secs(1)).await;
+                }
+            }
+        } else {
+            println!("File {target_path:?} already exists, skipping {title}");
+        }
 
         // Write back updated info JSON
         let info_json = serde_json::to_string_pretty(&info)?;
