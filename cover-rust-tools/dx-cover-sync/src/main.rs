@@ -65,7 +65,7 @@ fn catcode_to_category(catcode: &str) -> anyhow::Result<i32> {
 
 fn song_title_fixes(from_json: &str) -> &str {
     match from_json {
-        "Bad Apple!! feat. nomico" => "Bad Apple!! feat nomico",
+        "Bad Apple!! feat.nomico" => "Bad Apple!! feat nomico",
         _ => from_json,
     }
 }
@@ -189,7 +189,7 @@ async fn main() -> anyhow::Result<()> {
                     let mut file = File::create(target_path).await?;
                     let mut content = Cursor::new(resp.bytes().await?);
                     copy(&mut content, &mut file).await?;
-                    sleep(Duration::from_millis(300)).await;
+                    sleep(Duration::from_millis(125)).await;
                 }
             }
         } else {
