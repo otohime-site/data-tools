@@ -4,6 +4,7 @@ use std::path::PathBuf;
 
 use anyhow::ensure;
 use clap::Parser;
+use indexmap::IndexMap;
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
 use tokio::fs::{File, read_to_string};
@@ -15,15 +16,12 @@ struct SongEntry {
     artist: String,
     catcode: String,
     image_url: String,
-    release: String,
     #[serde(default)]
     lev_mas: Option<String>,
     #[serde(default)]
     dx_lev_mas: Option<String>,
-    sort: String,
     title: String,
     title_kana: String,
-    version: String,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
@@ -104,7 +102,7 @@ async fn main() -> anyhow::Result<()> {
             }
         }
     }
-    let mut info = serde_json::from_str::<HashMap<String, OutputInfo>>(
+    let mut info = serde_json::from_str::<IndexMap<String, OutputInfo>>(
         &read_to_string(&cli.info_json_path).await?,
     )?;
 
@@ -135,13 +133,21 @@ async fn main() -> anyhow::Result<()> {
             continue;
         }
         let category = catcode_to_category(song.catcode.as_str())?;
+        let mut matched: bool = false;
         if !(&song.lev_mas).is_none() {
             let variant_key = format!("{category}_{title}_f");
             variants.remove(&variant_key);
+            matched = true;
         }
         if !(&song.dx_lev_mas).is_none() {
             let variant_key = format!("{category}_{title}_t");
             variants.remove(&variant_key);
+            matched = true;
+        }
+        if !matched {
+            // If song is not matched, skip it
+            println!("Skipping {title} ({category})");
+            continue;
         }
         // Make a sha256 with format!("{category}_{title}")
         let info_key = format!("{category}_{title}");
@@ -183,7 +189,7 @@ async fn main() -> anyhow::Result<()> {
                     let mut file = File::create(target_path).await?;
                     let mut content = Cursor::new(resp.bytes().await?);
                     copy(&mut content, &mut file).await?;
-                    sleep(Duration::from_secs(1)).await;
+                    sleep(Duration::from_millis(300)).await;
                 }
             }
         } else {
