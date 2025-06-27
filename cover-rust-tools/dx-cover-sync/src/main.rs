@@ -166,7 +166,7 @@ async fn main() -> anyhow::Result<()> {
         let to_be_hash = format!("{category}_{title}");
         let hash = Sha256::digest(to_be_hash.as_bytes());
         let hash_hex = base16ct::lower::encode_string(&hash);
-        let target_filename = format!("{}.jpg", &hash_hex[..8]);
+        let target_filename = format!("{}.png", &hash_hex[..8]);
         let target_path = cli.cover_path.join(target_filename);
         if !target_path.exists() {
             let source_filename = &song.image_url;
