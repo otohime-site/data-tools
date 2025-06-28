@@ -134,15 +134,19 @@ async fn main() -> anyhow::Result<()> {
         }
         let category = catcode_to_category(song.catcode.as_str())?;
         let mut matched: bool = false;
-        if !(&song.lev_mas).is_none() {
+        if song.lev_mas.is_some() {
             let variant_key = format!("{category}_{title}_f");
-            variants.remove(&variant_key);
-            matched = true;
+            if variants.contains(&variant_key) {
+                variants.remove(&variant_key);
+                matched = true;
+            }
         }
-        if !(&song.dx_lev_mas).is_none() {
+        if song.dx_lev_mas.is_some() {
             let variant_key = format!("{category}_{title}_t");
-            variants.remove(&variant_key);
-            matched = true;
+            if variants.contains(&variant_key) {
+                variants.remove(&variant_key);
+                matched = true;
+            }
         }
         if !matched {
             // If song is not matched, skip it
@@ -163,11 +167,13 @@ async fn main() -> anyhow::Result<()> {
                 },
             );
         }
+
         let to_be_hash = format!("{category}_{title}");
         let hash = Sha256::digest(to_be_hash.as_bytes());
         let hash_hex = base16ct::lower::encode_string(&hash);
         let target_filename = format!("{}.png", &hash_hex[..8]);
         let target_path = cli.cover_path.join(target_filename);
+
         if !target_path.exists() {
             let source_filename = &song.image_url;
             match cli.cover_archive {
