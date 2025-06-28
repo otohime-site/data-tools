@@ -255,10 +255,6 @@
     "artist": "米津玄師",
     "title_kana": "コオコオユウレイセン"
   },
-  "2_千本桜": {
-    "artist": "黒うさP",
-    "title_kana": "センホンサクラ"
-  },
   "4_御旗のもとに": {
     "artist": "「サクラ大戦」",
     "title_kana": "ミハタノモトニ"
@@ -391,10 +387,6 @@
     "artist": "れるりり",
     "title_kana": "ノウシヨウサクレツカアル"
   },
-  "2_SPiCa": {
-    "artist": "とくP",
-    "title_kana": "SPICA"
-  },
   "2_セツナトリップ": {
     "artist": "Last Note.",
     "title_kana": "セツナトリツフ"
@@ -410,10 +402,6 @@
   "3_チルノのパーフェクトさんすう教室": {
     "artist": "ARM＋夕野ヨシミ(IOSYS)feat. miko",
     "title_kana": "チルノノハアフエクトサンスウキヨウシツ"
-  },
-  "3_Bad Apple!! feat.nomico": {
-    "artist": "Masayoshi Minoshima",
-    "title_kana": "BADAPPLEFEATNOMICO"
   },
   "3_魔理沙は大変なものを盗んでいきました": {
     "artist": "ARM＋夕野ヨシミ(IOSYS)feat. 藤咲かりん",
@@ -663,10 +651,6 @@
     "artist": "「新豪血寺一族 -煩悩解放-」",
     "title_kana": "レツツコオオンミヨウシ"
   },
-  "2_炉心融解": {
-    "artist": "iroha(sasaki)／kuma(alfred)",
-    "title_kana": "ロシンユウカイ"
-  },
   "2_ダブルラリアット": {
     "artist": "アゴアニキ",
     "title_kana": "タフルラリアツト"
@@ -678,10 +662,6 @@
   "2_ネトゲ廃人シュプレヒコール": {
     "artist": "さつき が てんこもり",
     "title_kana": "ネトケハイシンシユフレフコオル"
-  },
-  "2_むかしむかしのきょうのぼく": {
-    "artist": "DECO*27",
-    "title_kana": "ムカシムカシノキヨウノホク"
   },
   "2_magician's operation": {
     "artist": "EZFG",
@@ -722,10 +702,6 @@
   "2_ロストワンの号哭": {
     "artist": "Neru",
     "title_kana": "ロストワンノコウコク"
-  },
-  "2_Sweet Devil": {
-    "artist": "八王子P",
-    "title_kana": "SWEETDEVIL"
   },
   "3_患部で止まってすぐ溶ける～狂気の優曇華院": {
     "artist": "ARM＋夕野ヨシミ(IOSYS)feat. miko",
@@ -834,10 +810,6 @@
   "2_Heart Beats": {
     "artist": "向日葵×emon(Tes.)",
     "title_kana": "HEARTBEATS2"
-  },
-  "2_アゲアゲアゲイン": {
-    "artist": "Mitchie M",
-    "title_kana": "アケアケアケイン"
   },
   "4_鼓動": {
     "artist": "青木 千紘「龍が如く 維新！」",
@@ -1011,22 +983,6 @@
     "artist": "豚乙女",
     "title_kana": "キヨウエン"
   },
-  "2_LOL -lots of laugh-": {
-    "artist": "KeN/エンドケイプ",
-    "title_kana": "LOLLOTSOFLAUGH"
-  },
-  "2_クローバー♣クラブ": {
-    "artist": "ゆうゆ",
-    "title_kana": "クロウハアクラフ"
-  },
-  "2_妄想税": {
-    "artist": "DECO*27",
-    "title_kana": "モウソウセイ"
-  },
-  "2_どういうことなの！？": {
-    "artist": "くちばしP",
-    "title_kana": "トウイウコトナノ"
-  },
   "2_初音ミクの消失": {
     "artist": "cosMo＠暴走P",
     "title_kana": "ハツネミクノシヨウシツ"
@@ -1122,10 +1078,6 @@
   "2_ありふれたせかいせいふく": {
     "artist": "ピノキオピー",
     "title_kana": "アリフレタセカイセイフク"
-  },
-  "2_すろぉもぉしょん": {
-    "artist": "ピノキオピー",
-    "title_kana": "スロオモオシヨン"
   },
   "2_頓珍漢の宴": {
     "artist": "ピノキオピー",
@@ -1263,10 +1215,6 @@
     "artist": "40mP",
     "title_kana": "レンアイサイハン"
   },
-  "2_Just Be Friends": {
-    "artist": "Dixie Flatline",
-    "title_kana": "JUSTBEFRIENDS"
-  },
   "2_パーフェクト生命": {
     "artist": "ナユタン星人",
     "title_kana": "ハアフエクトセイメイ"
@@ -1283,14 +1231,6 @@
     "artist": "椎名もた (ぽわぽわP)",
     "title_kana": "ヘルシイエント"
   },
-  "2_クノイチでも恋がしたい": {
-    "artist": "みきとP",
-    "title_kana": "クノイチテモコイカシタイ"
-  },
-  "2_ココロ": {
-    "artist": "トラボルタ",
-    "title_kana": "ココロ"
-  },
   "2_東京リアルワールド": {
     "artist": "out of service",
     "title_kana": "トウキヨウリアルワアルト"
@@ -1298,10 +1238,6 @@
   "2_やめろ！聴くな！": {
     "artist": "SLAVE.V-V-R",
     "title_kana": "ヤメロキクナ"
-  },
-  "2_ゆっくりしていってね！！！": {
-    "artist": "今日犬",
-    "title_kana": "ユツクリシテイツテネ"
   },
   "2_木彫り鯰と右肩ゾンビ": {
     "artist": "hanzo/赤飯歌唱Ver",
@@ -1311,17 +1247,9 @@
     "artist": "CIRCRUSH",
     "title_kana": "ECHO"
   },
-  "2_しんでしまうとはなさけない！": {
-    "artist": "ワンダフル☆オポチュニティ！",
-    "title_kana": "シンテシマウトハナサケナイ"
-  },
   "2_Hand in Hand": {
     "artist": "livetune",
     "title_kana": "HANDINHAND"
-  },
-  "2_ブリキノダンス": {
-    "artist": "日向電工",
-    "title_kana": "フリキノタンス"
   },
   "6_brilliant better": {
     "artist": "御形 アリシアナ(CV:福原 綾香)",
@@ -1360,11 +1288,11 @@
     "title_kana": "NITROUSFURY"
   },
   "3_色は匂へど散りぬるを": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "イロハニオヘトチリヌルヲ"
   },
   "3_月に叢雲華に風": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "ツキニムラクモハナニカセ"
   },
   "3_No Routine": {
@@ -1380,11 +1308,11 @@
     "title_kana": "エテルニタスルトロシ"
   },
   "3_泡沫、哀のまほろば": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "ウタカタアイノマホロハ"
   },
   "3_華鳥風月": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "カチヨウフウケツ"
   },
   "4_METATRON": {
@@ -1434,10 +1362,6 @@
   "5_空威張りビヘイビア": {
     "artist": "un:c・ろん×じーざすP",
     "title_kana": "カライハリヒヘイヒア"
-  },
-  "1_回レ！雪月花": {
-    "artist": "歌組雪月花 夜々(原田ひとみ)/いろり(茅野愛衣)/小紫(小倉唯)「機巧少女は傷つかない」",
-    "title_kana": "マワレセツケツカ"
   },
   "5_いっしそう電☆舞舞神拳！": {
     "artist": "さつき が てんこもり feat. YURiCa/花たん",
@@ -1583,10 +1507,6 @@
     "artist": "Junky",
     "title_kana": "ラフチイノ"
   },
-  "2_東京レトロ": {
-    "artist": "すこっぷ",
-    "title_kana": "トウキヨウレトロ"
-  },
   "2_ARROW": {
     "artist": "niki",
     "title_kana": "ARROW"
@@ -1695,14 +1615,6 @@
     "artist": "ねこみりん + nora2r feat. 小宮真央",
     "title_kana": "ヒトサトニクタツタアタイカイツノマニカシヤチクニナツテイタケン"
   },
-  "1_ギリギリ最強あいまいみー！": {
-    "artist": "愛(C.V.大坪由佳) 麻衣(C.V.内田彩) ミイ(C.V.内田真礼)「あいまいみー」",
-    "title_kana": "キリキリサイキヨウアイマイミイ"
-  },
-  "2_ちがう!!!": {
-    "artist": "カルロス袴田(サイゼP)",
-    "title_kana": "チカウ"
-  },
   "5_Moon of Noon": {
     "artist": "Sampling Masters MEGA",
     "title_kana": "MOONOFNOON"
@@ -1714,10 +1626,6 @@
   "5_デスパレイト": {
     "artist": "owl＊tree",
     "title_kana": "テスハレイト"
-  },
-  "1_ようこそジャパリパークへ": {
-    "artist": "どうぶつビスケッツ×PPP「けものフレンズ」",
-    "title_kana": "ヨウコソシヤハリハアクヘ"
   },
   "2_ドーナツホール": {
     "artist": "ハチ",
@@ -1734,18 +1642,6 @@
   "5_Magical Flavor": {
     "artist": "DECO*27 feat.Tia",
     "title_kana": "MAGICALFLAVOR"
-  },
-  "2_白い雪のプリンセスは": {
-    "artist": "のぼる↑",
-    "title_kana": "シロイユキノフリンセスハ"
-  },
-  "2_好き！雪！本気マジック": {
-    "artist": "Mitchie M",
-    "title_kana": "スキユキマシマシツク"
-  },
-  "2_スターナイトスノウ": {
-    "artist": "n-buna × Orangestar",
-    "title_kana": "スタアナイトスノウ"
   },
   "5_Candy Tall Woman": {
     "artist": "naotyu- feat. 佐々木恵梨",
@@ -1806,10 +1702,6 @@
   "6_Still": {
     "artist": "イロドリミドリ「CHUNITHM」",
     "title_kana": "STILL"
-  },
-  "1_fantastic dreamer": {
-    "artist": "Machico「この素晴らしい世界に祝福を！」",
-    "title_kana": "FANTASTICDREAMER"
   },
   "3_天狗の落とし文 feat. ｙｔｒ": {
     "artist": "魂音泉",
@@ -1955,21 +1847,9 @@
     "artist": "ガリガリさむし",
     "title_kana": "LARVA"
   },
-  "2_えれくとりっく・えんじぇぅ": {
-    "artist": "ヤスオ",
-    "title_kana": "エレクトリツクエンシエウ"
-  },
-  "2_ミラクルペイント": {
-    "artist": "OSTER project",
-    "title_kana": "ミラクルヘイント"
-  },
   "2_初音ミクの激唱": {
     "artist": "Storyteller",
     "title_kana": "ハツネミクノケキシヨウ"
-  },
-  "1_ガチャガチャきゅ～と・ふぃぎゅ@メイト": {
-    "artist": "MOSAIC.WAV",
-    "title_kana": "カチヤカチヤキユウトフイキユアツトメイト"
   },
   "1_true my heart -Lovable mix-": {
     "artist": "ave;new feat.佐倉紗織",
@@ -1998,10 +1878,6 @@
   "5_Ragnarok": {
     "artist": "sky_delta",
     "title_kana": "RAGNAROK"
-  },
-  "2_このふざけた素晴らしき世界は、僕の為にある": {
-    "artist": "n.k",
-    "title_kana": "コノフサケタスハラシキセカイハホクノタメニアル"
   },
   "2_このピアノでお前を8759632145回ぶん殴る": {
     "artist": "SLAVE.V-V-R",
@@ -2123,10 +1999,6 @@
     "artist": "Cranky",
     "title_kana": "EVERGREEN"
   },
-  "2_金の聖夜霜雪に朽ちて": {
-    "artist": "デッドボールP",
-    "title_kana": "コカネノセイヤソウセツニクチテ"
-  },
   "3_不思議の国のクリスマス": {
     "artist": "SOUND HOLIC feat. 3L",
     "title_kana": "フシキノクニノクリスマス"
@@ -2135,33 +2007,13 @@
     "artist": "Tsukasa",
     "title_kana": "SCHWARZSCHILD"
   },
-  "2_Magical Sound Shower": {
-    "artist": "HIRO/曲者P",
-    "title_kana": "MAGICALSOUNDSHOWER"
-  },
-  "2_片想いサンバ": {
-    "artist": "オワタP",
-    "title_kana": "カタオモイサンハ"
-  },
   "2_ナイトメア☆パーティーナイト": {
     "artist": "くちばしP",
     "title_kana": "ナイトメアハアテイナイト"
   },
-  "2_フキゲンワルツ": {
-    "artist": "OSTER project",
-    "title_kana": "フキケンワルツ"
-  },
   "2_結ンデ開イテ羅刹ト骸": {
     "artist": "ハチ",
     "title_kana": "ムスンテヒライテラセツトムクロ"
-  },
-  "2_サウンド": {
-    "artist": "baker",
-    "title_kana": "サウント"
-  },
-  "2_右肩の蝶": {
-    "artist": "のりP",
-    "title_kana": "ミキカタノチヨウ"
   },
   "5_Alea jacta est!": {
     "artist": "BlackY fused with WAiKURO",
@@ -2206,14 +2058,6 @@
   "5_雷切-RAIKIRI-": {
     "artist": "kanone",
     "title_kana": "ライキリ"
-  },
-  "4_キミとボクのミライ": {
-    "artist": "ジータ（CV:金元寿子）、ルリア（CV:東山奈央）、ヴィーラ（CV:今井麻美）、マリー（CV:長谷川明子）",
-    "title_kana": "キミトホクノミライ"
-  },
-  "4_Lost Princess": {
-    "artist": "ペコリーヌ（CV：M・A・O）、コッコロ（CV：伊藤美来）、キャル（CV：立花理香）",
-    "title_kana": "LOSTPRINCESS"
   },
   "2_敗北の少年": {
     "artist": "kemu",
@@ -2270,10 +2114,6 @@
   "4_End Time": {
     "artist": "Cres.",
     "title_kana": "ENDTIME"
-  },
-  "2_カラフル×メロディ": {
-    "artist": "ちーむMOER",
-    "title_kana": "カラフルメロテイ"
   },
   "4_魔法少女になるしかねぇ": {
     "artist": "ねこみりん feat.小宮真央",
@@ -2647,10 +2487,6 @@
     "artist": "ヨルシカ",
     "title_kana": "タカラホクハオンカクヲヤメタ"
   },
-  "1_I'm with you": {
-    "artist": "ラティナ(CV:高尾奏音)",
-    "title_kana": "IMWITHYOU"
-  },
   "2_ビターチョコデコレーション": {
     "artist": "syudou",
     "title_kana": "ヒタアチヨコテコレエシヨン"
@@ -2870,10 +2706,6 @@
   "6_レーイレーイ": {
     "artist": "かいりきベア feat.松下",
     "title_kana": "レエイレエイ"
-  },
-  "1_お願いマッスル": {
-    "artist": "紗倉ひびき（CV:ファイルーズあい）＆街雄鳴造（CV:石川界人）",
-    "title_kana": "オネカイマツスル"
   },
   "1_Virtual to LIVE": {
     "artist": "にじさんじ",
@@ -3119,10 +2951,6 @@
     "artist": "タケモトピアノCM",
     "title_kana": "タケモトヒアノシイエムソンク"
   },
-  "2_電話革命ナイセン": {
-    "artist": "ナイセン - momoco-",
-    "title_kana": "テンワカクメイナイセン"
-  },
   "2_ネガティブ進化論": {
     "artist": "DECO*27",
     "title_kana": "ネカテイフシンカロン"
@@ -3188,7 +3016,7 @@
     "title_kana": "ロストワアトクロニカル"
   },
   "3_今、誰が為のかがり火へ": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "イマタレカタメノカカリヒヘ"
   },
   "3_Melody！": {
@@ -3455,10 +3283,6 @@
     "artist": "稲葉曇",
     "title_kana": "ラクトレイン"
   },
-  "1_なだめスかし Negotiation（TVsize）": {
-    "artist": "鹿乃と宇崎ちゃん",
-    "title_kana": "ナタメスカシネコシエエシヨンテレヒサイス"
-  },
   "1_インドア系ならトラックメイカー": {
     "artist": "Yunomi & nicamoq",
     "title_kana": "イントアケイナラトラツクメイカア"
@@ -3700,7 +3524,7 @@
     "title_kana": "タイリンノソウルFEATAOシハフ"
   },
   "3_紅に染まる恋の花": {
-    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
+    "artist": "幽閉サテライト",
     "title_kana": "クレイナイニソマルコイノハナ"
   },
   "3_三妖精SAY YA!!!": {
@@ -3859,10 +3683,6 @@
     "artist": "ETIA.",
     "title_kana": "HAINUWELE"
   },
-  "1_アノーイング！さんさんウィーク！": {
-    "artist": "五十嵐双葉（ＣＶ：楠木ともり）、桜井桃子（ＣＶ：早見沙織）、黒部夏美（ＣＶ：青山玲菜）、月城モナ（ＣＶ：古賀葵）",
-    "title_kana": "アノオインクサンサンウイイク"
-  },
   "2_アニマル": {
     "artist": "DECO*27",
     "title_kana": "アニマル"
@@ -3940,12 +3760,8 @@
     "title_kana": "マアシヤルマキシマイサア"
   },
   "2_秋の未確認生物": {
-    "artist": "子牛 feat.音街ウナ",
+    "artist": "子牛",
     "title_kana": "アキノミカクニンセイフツ"
-  },
-  "1_Dive into the ZONe": {
-    "artist": "ぞん子",
-    "title_kana": "DIVEINTOTHEZONE"
   },
   "4_エナドリおいしいソング": {
     "artist": "冥堂院・アレクサンドル・ヴィクトリア・リヒテンシュタイン・聖斗 feat.TINOP",
@@ -4447,10 +4263,6 @@
     "artist": "t+pazolite",
     "title_kana": "OMAKENOSTROKE"
   },
-  "1_青春コンプレックス": {
-    "artist": "結束バンド",
-    "title_kana": "セイシユンコンフレツクス"
-  },
   "1_さくゆいたいそう": {
     "artist": "さくゆい",
     "title_kana": "サクユイタイソウ"
@@ -4482,10 +4294,6 @@
   "4_天使光輪": {
     "artist": "REDALiCE & cosMo＠暴走P",
     "title_kana": "テンシコウリン"
-  },
-  "1_story": {
-    "artist": "前島麻由",
-    "title_kana": "STORY"
   },
   "2_トンデモワンダーズ": {
     "artist": "sasakure.UK",
@@ -4730,14 +4538,6 @@
   "4_ouroboros -twin stroke of the end-": {
     "artist": "Cranky VS MASAKI",
     "title_kana": "OUROBOROSTWINSTROKEOFTHEEND"
-  },
-  "2_カーニバルハッピー": {
-    "artist": "かいりきベア",
-    "title_kana": "カアニハルハツヒイ"
-  },
-  "2_つづみぐさ": {
-    "artist": "いよわ",
-    "title_kana": "ツツミクサ"
   },
   "2_サイバーサンダーサイダー": {
     "artist": "EZFG",
@@ -5047,10 +4847,6 @@
     "artist": "sky_delta vs KO3 vs Tanchiky",
     "title_kana": "HYP3RTRIBE"
   },
-  "1_On your mark (104期 Ver.)": {
-    "artist": "蓮ノ空女学院スクールアイドルクラブ",
-    "title_kana": "ONYOURMARK104キVER"
-  },
   "4_はげしこの夜 -Psylent Crazy Night-": {
     "artist": "aran & Kobaryo",
     "title_kana": "ハケシコノヨルPSYLENTCRAZYNIGHT"
@@ -5307,45 +5103,9 @@
     "artist": "クーナ(CV 喜多村英梨)「PHANTASY STAR ONLINE 2」",
     "title_kana": "OURFIGHTING"
   },
-  "1_1/3の純情な感情": {
-    "artist": "SIAM SHADE [covered by 湯毛]",
-    "title_kana": "3フンノ1ノシユンシヨウナカンシシヨウ"
-  },
-  "2_おじゃま虫": {
-    "artist": "DECO*27",
-    "title_kana": "オシヤマムシ"
-  },
-  "2_はじめまして地球人さん": {
-    "artist": "ピノキオピー",
-    "title_kana": "ハシメマシテチキユウシンサン"
-  },
   "2_ヒビカセ": {
     "artist": "GigaReol",
     "title_kana": "ヒヒカセ"
-  },
-  "1_Paradisus-Paradoxum": {
-    "artist": "MYTH & ROID「Re：ゼロから始める異世界生活」",
-    "title_kana": "PARADISUSPARADOXUM"
-  },
-  "1_あ・え・い・う・え・お・あお!!": {
-    "artist": "劇団ひととせ「ひなこのーと」",
-    "title_kana": "アエイウエオアオ"
-  },
-  "1_This game": {
-    "artist": "鈴木このみ「ノーゲーム・ノーライフ」",
-    "title_kana": "THISGAME"
-  },
-  "1_Los! Los! Los!": {
-    "artist": "ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」",
-    "title_kana": "LOSLOSLOS"
-  },
-  "1_ガヴリールドロップキック": {
-    "artist": "ガヴリール（富田美憂），ヴィーネ（大西沙織），サターニャ（大空直美），ラフィエル（花澤香菜）「ガヴリールドロップアウト」",
-    "title_kana": "カフリイストロツフキツク"
-  },
-  "1_アンチクロックワイズ": {
-    "artist": "After the Rain（そらる×まふまふ）",
-    "title_kana": "アンチクロツクワイス"
   },
   "1_SHINY DAYS": {
     "artist": "亜咲花",
@@ -5362,58 +5122,6 @@
   "1_いつかいい感じにアレしよう": {
     "artist": "カクとイムラ(CV：松本慶祐)",
     "title_kana": "イツカイイカンシニアレシヨウ"
-  },
-  "1_六厘歌": {
-    "artist": "六厘舎",
-    "title_kana": "ロクリンカ"
-  },
-  "1_ノーポイッ!": {
-    "artist": "Petit Rabbit's",
-    "title_kana": "ノオホイツ"
-  },
-  "1_町かどタンジェント": {
-    "artist": "shami momo（吉田優子・千代田桃）／CV：小原好美・鬼頭明里",
-    "title_kana": "マチカトタンシエント"
-  },
-  "1_紅蓮華": {
-    "artist": "LiSA",
-    "title_kana": "クレンケ"
-  },
-  "1_MIRACLE RUSH": {
-    "artist": "StylipS",
-    "title_kana": "MIRACLERUSH"
-  },
-  "1_Pretender": {
-    "artist": "Official髭男dism",
-    "title_kana": "PRETENDER"
-  },
-  "1_インフェルノ": {
-    "artist": "Mrs. GREEN APPLE",
-    "title_kana": "インフエルノ"
-  },
-  "1_冬のこもりうた": {
-    "artist": "原田知世",
-    "title_kana": "フユノコモリウタ"
-  },
-  "1_God knows...": {
-    "artist": "涼宮ハルヒ（CV.平野 綾） TVアニメ「涼宮ハルヒの憂鬱」",
-    "title_kana": "GODKNOWS"
-  },
-  "1_秒針を噛む": {
-    "artist": "ずっと真夜中でいいのに。",
-    "title_kana": "ヒヨウシンヲカム"
-  },
-  "1_乙女のルートはひとつじゃない！": {
-    "artist": "angela",
-    "title_kana": "オトメノルウトハヒトツシヤナイ"
-  },
-  "1_ビックカメラのテーマソング": {
-    "artist": "ビックカメラ",
-    "title_kana": "ヒツクカメラノテエマソンク"
-  },
-  "1_Shiny Smily Story": {
-    "artist": "hololive IDOL PROJECT",
-    "title_kana": "SHINYSMILYSTORY"
   },
   "1_夜に駆ける": {
     "artist": "YOASOBI",
@@ -5439,10 +5147,6 @@
     "artist": "Rain Drops",
     "title_kana": "VOLTAGE"
   },
-  "1_Seize The Day": {
-    "artist": "亜咲花",
-    "title_kana": "SEIZETHEDAY"
-  },
   "1_veil": {
     "artist": "須田景凪",
     "title_kana": "VEIL"
@@ -5455,10 +5159,6 @@
     "artist": "ツユ",
     "title_kana": "テリトリイハトル"
   },
-  "1_愛のシュプリーム！": {
-    "artist": "fhána",
-    "title_kana": "アイノシユフリイム"
-  },
   "1_くらべられっ子": {
     "artist": "ツユ",
     "title_kana": "クラヘラレツコ"
@@ -5466,10 +5166,6 @@
   "1_あの世行きのバスに乗ってさらば。": {
     "artist": "ツユ",
     "title_kana": "アノヨイキノハスニノツテサラハ"
-  },
-  "1_うまぴょい伝説": {
-    "artist": "スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）",
-    "title_kana": "ウマヒヨイテンセツ"
   },
   "1_Photon Melodies": {
     "artist": "Photon Maiden",
@@ -5490,5 +5186,41 @@
   "1_YONA YONA DANCE": {
     "artist": "和田アキ子",
     "title_kana": "YONAYONADANCE"
+  },
+  "1_アンダーキッズ": {
+    "artist": "ツユ",
+    "title_kana": "アンタアキツス"
+  },
+  "1_六厘歌": {
+    "artist": "六厘舎",
+    "title_kana": "ロクリンカ"
+  },
+  "1_ノーポイッ!": {
+    "artist": "Petit Rabbit's",
+    "title_kana": "ノオホイツ"
+  },
+  "1_町かどタンジェント": {
+    "artist": "shami momo（吉田優子・千代田桃）／CV：小原好美・鬼頭明里",
+    "title_kana": "マチカトタンシエント"
+  },
+  "1_紅蓮華": {
+    "artist": "LiSA",
+    "title_kana": "クレンケ"
+  },
+  "1_Pretender": {
+    "artist": "Official髭男dism",
+    "title_kana": "PRETENDER"
+  },
+  "1_冬のこもりうた": {
+    "artist": "原田知世",
+    "title_kana": "フユノコモリウタ"
+  },
+  "1_秒針を噛む": {
+    "artist": "ずっと真夜中でいいのに。",
+    "title_kana": "ヒヨウシンヲカム"
+  },
+  "1_Shiny Smily Story": {
+    "artist": "hololive IDOL PROJECT",
+    "title_kana": "SHINYSMILYSTORY"
   }
 }
