@@ -59,6 +59,11 @@ fn catcode_to_category(catcode: &str) -> anyhow::Result<i32> {
         "ゲーム＆バラエティ" => Ok(4),
         "maimai" => Ok(5),
         "オンゲキ＆CHUNITHM" => Ok(6),
+        // old splash JSON file
+        "POPSアニメ" => Ok(1),
+        "niconicoボーカロイド" => Ok(2),
+        "ゲームバラエティ" => Ok(4),
+        "オンゲキCHUNITHM" => Ok(6),
         _ => Err(anyhow::anyhow!("Unknown catcode: {}", catcode)),
     }
 }
@@ -149,8 +154,9 @@ async fn main() -> anyhow::Result<()> {
             }
         }
         if !matched {
+            let source_filename = &song.image_url;
             // If song is not matched, skip it
-            println!("Skipping {title} ({category})");
+            println!("Skipping {title} ({source_filename})");
             continue;
         }
         // Make a sha256 with format!("{category}_{title}")
@@ -175,7 +181,8 @@ async fn main() -> anyhow::Result<()> {
         let target_path = cli.cover_path.join(target_filename);
 
         if !target_path.exists() {
-            let source_filename = &song.image_url;
+            // replace .jpg postfix to .png (we will convert it)
+            let source_filename = &song.image_url.replace(".jpg", ".png");
             match cli.cover_archive {
                 Some(ref cover_archive) => {
                     // Use the cover archive

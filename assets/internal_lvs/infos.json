@@ -1288,11 +1288,11 @@
     "title_kana": "NITROUSFURY"
   },
   "3_色は匂へど散りぬるを": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "イロハニオヘトチリヌルヲ"
   },
   "3_月に叢雲華に風": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "ツキニムラクモハナニカセ"
   },
   "3_No Routine": {
@@ -1308,11 +1308,11 @@
     "title_kana": "エテルニタスルトロシ"
   },
   "3_泡沫、哀のまほろば": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "ウタカタアイノマホロハ"
   },
   "3_華鳥風月": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "カチヨウフウケツ"
   },
   "4_METATRON": {
@@ -3016,7 +3016,7 @@
     "title_kana": "ロストワアトクロニカル"
   },
   "3_今、誰が為のかがり火へ": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "イマタレカタメノカカリヒヘ"
   },
   "3_Melody！": {
@@ -3524,7 +3524,7 @@
     "title_kana": "タイリンノソウルFEATAOシハフ"
   },
   "3_紅に染まる恋の花": {
-    "artist": "幽閉サテライト",
+    "artist": "幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon)",
     "title_kana": "クレイナイニソマルコイノハナ"
   },
   "3_三妖精SAY YA!!!": {
@@ -3760,7 +3760,7 @@
     "title_kana": "マアシヤルマキシマイサア"
   },
   "2_秋の未確認生物": {
-    "artist": "子牛",
+    "artist": "子牛 feat.音街ウナ",
     "title_kana": "アキノミカクニンセイフツ"
   },
   "4_エナドリおいしいソング": {
@@ -5222,5 +5222,89 @@
   "1_Shiny Smily Story": {
     "artist": "hololive IDOL PROJECT",
     "title_kana": "SHINYSMILYSTORY"
+  },
+  "1_コネクト": {
+    "artist": "ClariS「魔法少女まどか☆マギカ」",
+    "title_kana": "コネクト"
+  },
+  "1_青空のラプソディ": {
+    "artist": "fhána",
+    "title_kana": "アオソラノラフソテイ"
+  },
+  "1_ラブ・ドラマティック feat. 伊原六花": {
+    "artist": "鈴木雅之",
+    "title_kana": "ラフトラマテイツクフイイチヤリンクイハラリツカ"
+  },
+  "1_馬と鹿": {
+    "artist": "米津玄師",
+    "title_kana": "ウマトシカ"
+  },
+  "2_毒占欲": {
+    "artist": "DECO*27",
+    "title_kana": "トクセンヨク"
+  },
+  "1_かくしん的☆めたまるふぉ～ぜっ！": {
+    "artist": "土間うまる [CV.田中あいみ]「干物妹！うまるちゃん」",
+    "title_kana": "カクシンテキメタマルフオウセ"
+  },
+  "1_夏祭り": {
+    "artist": "Jitterin' Jinn [covered by ろん]",
+    "title_kana": "ナツマツリ"
+  },
+  "1_シュガーソングとビターステップ": {
+    "artist": "UNISON SQUARE GARDEN",
+    "title_kana": "シユカアソンクトヒタアステツフ"
+  },
+  "2_Mr. Wonderland": {
+    "artist": "sasakure.UK",
+    "title_kana": "MRWONDERLAND"
+  },
+  "2_名探偵連続殺人事件": {
+    "artist": "てにをは",
+    "title_kana": "メイタンテイレンソクサツシンシケン"
+  },
+  "1_にめんせい☆ウラオモテライフ！": {
+    "artist": "土間うまる（田中あいみ）「干物妹！うまるちゃんR」",
+    "title_kana": "ニメンセイウラオモテライフ"
+  },
+  "1_うまるん体操": {
+    "artist": "妹Ｓ「干物妹！うまるちゃんR」",
+    "title_kana": "ウマルンタイソウ"
+  },
+  "2_Ievan Polkka": {
+    "artist": "Otomania feat. 初音ミク",
+    "title_kana": "IEVANPOLKKA"
+  },
+  "1_Arrival of Tears": {
+    "artist": "彩音",
+    "title_kana": "ARRIVALOFTEARS"
+  },
+  "2_ワンダーラスト": {
+    "artist": "sasakure.UK",
+    "title_kana": "ワンタアラスト"
+  },
+  "1_LOSER": {
+    "artist": "米津玄師",
+    "title_kana": "LOSER"
+  },
+  "1_U.S.A.": {
+    "artist": "DA PUMP",
+    "title_kana": "USA"
+  },
+  "1_新宝島": {
+    "artist": "サカナクション",
+    "title_kana": "シンタカラシマ"
+  },
+  "2_アウトサイダー": {
+    "artist": "Eve",
+    "title_kana": "アウトサイタア"
+  },
+  "2_ジャガーノート": {
+    "artist": "夏代孝明 feat. 初音ミク",
+    "title_kana": "シヤカアノオト"
+  },
+  "5_全世界共通リズム感テスト": {
+    "artist": "☆リズムに合わせてボタンを叩き達成率を競うゲームです☆",
+    "title_kana": "センセカイキヨウツウリスムカンテスト"
   }
 }
