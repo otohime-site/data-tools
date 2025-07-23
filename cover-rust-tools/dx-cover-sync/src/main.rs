@@ -70,7 +70,7 @@ fn catcode_to_category(catcode: &str) -> anyhow::Result<i32> {
 
 fn song_title_fixes(from_json: &str) -> &str {
     match from_json {
-        "Bad Apple!! feat.nomico" => "Bad Apple!! feat nomico",
+        // Reserved for future fixes
         _ => from_json,
     }
 }
