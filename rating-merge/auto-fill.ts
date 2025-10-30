@@ -29,7 +29,7 @@ const go = async () => {
 
   const newSongTitles = new Set(
     parseScores(
-      await fsPromises.readFile("../assets/dxnet/prism_plus.htm", "utf8"),
+      await fsPromises.readFile("../assets/dxnet/circle.htm", "utf8"),
       undefined,
       true,
     ).map((score) => score.title),
@@ -130,7 +130,7 @@ const go = async () => {
     }
   }
   await fsPromises.writeFile(
-    "../assets/internal_lvs/24_prism_plus.json",
+    "../assets/internal_lvs/25_circle.json",
     JSON.stringify({ ...result, ...manualInternalLvs }, undefined, 2),
   )
 }

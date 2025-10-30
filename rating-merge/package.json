@@ -8,13 +8,11 @@
     "tsx": "tsx"
   },
   "dependencies": {
-    "@otohime-site/parser": "^22.5.3",  
+    "@otohime-site/parser": "^24.1.1",  
     "linkedom": "^0.18.9",
-    "papaparse": "^5.3.2",
     "tsx": "^4.20.3"
   },
   "devDependencies": {
-    "@types/jsdom": "^20.0.0",
     "@types/papaparse": "^5.3.2",
     "prettier-plugin-organize-imports": "^4.1.0"
   }
