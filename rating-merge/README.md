@@ -12,7 +12,7 @@ Only DXNET files from PRiSM PLUS (or maybe later), where the song record in leve
 
 Data from Japanese version is be used as it is 4 months ahead of international one. You must sign in with Japanese DXNET (which means you must have played maimai in Japan at least once in any time), then
 prepare the following HTML files from DXNET:
-* `prism_plus.htm`: Song record from the latest version
+* `circle.htm`: Song record from the latest version
 * `mas.htm`: Song record for all genre with master difficulty
 * `10.htm`, `10_plus.htm`, ... `15.htm`: Song record from Level 10 to Level 15
 
