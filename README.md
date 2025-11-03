@@ -5,6 +5,7 @@ Data aggregation and processing tools for the Otohime site.
 ## Overview
 
 This repository contains tools for processing maimai DX data, including:
+
 - Sync Internal level data form the DXNET of Japanese version of DXNET
 - Cover image synchronization from official JSON sources
 
@@ -24,7 +25,6 @@ See [rating-merge/README.md](rating-merge/README.md) for detailed usage.
 
 Rust-based tools for synchronizing cover images and song metadata.
 
-
 It will download cover images from official maimai DX source, and merge existing song data with new information.
 
 - Support for both online fetching and offline archive processing
@@ -36,7 +36,8 @@ See [cover-rust-tools/README.md](cover-rust-tools/README.md) for detailed usage.
 
 The `assets/` directory is shared between the project, to preseve the current status of the assets. Both tools aboved will try to update folder with the updates.
 
-It will contains:
+It contains:
+
 - `covers/`: PNG cover images for songs
   - This can be updated with `cover-rust-tools`.
   - For the production version of Otohime, it also contains covers for removed songs obtained from various source like RemyWiki and Wayback Machine.
@@ -76,6 +77,6 @@ cargo run --release --bin dx-cover-sync -- [OPTIONS] <JSON_PATH> <COVER_PATH> <I
 
 ## License
 
-MIT License. 
+MIT License.
 
 See [LICENSE](LICENSE) for details.
