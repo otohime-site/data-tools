@@ -44,7 +44,7 @@ It will contains:
 - `covers-webp/`: WebP format cover images
   - It is converted using `webp.sh` (requires ImageMagick), and will be synced to CloudFlare R2 running on https://covers.otohi.me/ via `rclone`.
 - `cover-archives/`: Archived cover image data from different versions
-  - It is used to 
+  - Some covers from removed songs are obtained in this way.
 - `dxnet/`: HTML files from DX-NET for parsing
 - `internal_lvs/`: Internal level JSON files and metadata
   - The result files will be used in server code, stored at `hooks/src`.
